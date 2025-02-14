@@ -24,7 +24,7 @@ yourTax= round(.06 * (myMuf + myCof + myCro + myEss), 2)
 
 print('\n***************************************\n', # this command prints the receipt using variables/equations from the prmompts and statements found above
 '\n\
-\n***************************************\n
+\n***************************************\n\
 ~~ My Cafe Receipt ~~\
 \n',myAmt_1 ,'Coffees @ $5.00 each: $', myCof, # Displays amnt of coffee at $5 price then shows total for the category
 '\n',myAmt_2,'Muffins @ $4.00 each: $', myMuf, # Displays amnt of muffins at $4 price then shows total for the category
